@@ -1,0 +1,45 @@
+# ========================
+# 🐍 Python/Django
+# ========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.so
+
+# 🐘 DB (개발용 SQLite)
+db.sqlite3
+
+# ⚠️ 환경 변수
+.env
+.env.*
+
+# Django static/media (배포에선 처리 다르게 가능)
+staticfiles/
+media/
+
+# Migrations (필요하면 커밋 가능, 보통 제외)
+**/migrations/*.py
+!**/migrations/__init__.py
+
+# ========================
+# 🐳 Docker
+# ========================
+*.log
+docker-compose.override.yml
+
+# ========================
+# 🧠 VSCode / Editor
+# ========================
+.vscode/
+.idea/
+*.swp
+
+# ========================
+# 📦 가상환경
+# ========================
+.venv/
+venv/
+ENV/
+env/
